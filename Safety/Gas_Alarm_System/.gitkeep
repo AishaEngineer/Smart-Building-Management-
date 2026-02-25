@@ -1,0 +1,4 @@
+# Gas Leak Detection System
+Sensor: MQ-6 Gas Sensor
+Output: Buzzer + LED + SMS Alert
+Based on PDF Page 90-93
