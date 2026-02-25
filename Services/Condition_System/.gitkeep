@@ -1,0 +1,4 @@
+# Air Conditioning System
+Automatic temperature control using DHT11 sensor
+- Monitors room temperature
+- Automatic fan ON when temperature > 28°C
