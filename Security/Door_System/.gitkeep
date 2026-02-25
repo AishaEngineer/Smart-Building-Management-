@@ -1,0 +1,4 @@
+# Automatic Door Control System
+Servo motor controlled via WiFi
+- Open/Close commands from web interface
+- Based on PDF Page 81-84
