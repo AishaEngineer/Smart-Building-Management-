@@ -1,0 +1,5 @@
+# Light System Module
+Three sub-systems:
+- Indoor Lights (WiFi Control)
+- Stair Lights (Motion Activated)
+- Outdoor Lights (LDR Sensor)
