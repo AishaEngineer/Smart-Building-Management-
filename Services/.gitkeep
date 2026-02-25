@@ -1,0 +1,8 @@
+# Services Subsystem
+Contains the main service modules for the smart home:
+- Lighting System (Indoor, Stair, Outdoor)
+- Water Supply System
+- Air Conditioning System
+- Soil Humidity System
+- Device Control System
+- Entertainment Room
