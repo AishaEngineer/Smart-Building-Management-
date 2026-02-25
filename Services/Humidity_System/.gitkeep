@@ -1,0 +1,5 @@
+# Soil Humidity Monitoring System
+Automatic plant watering alert using YL-69 sensor
+- Monitors soil moisture
+- LED indicator when soil is dry
+- SMS notification option
