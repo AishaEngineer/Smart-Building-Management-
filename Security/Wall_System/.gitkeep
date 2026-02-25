@@ -1,0 +1,6 @@
+# Wall Protection System
+Laser security system with SMS alert
+- Laser + Photoresistor detection
+- Buzzer alarm
+- GSM SIM900A for SMS notification
+- Based on PDF Page 84-87
