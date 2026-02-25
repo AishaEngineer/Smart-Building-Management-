@@ -1,0 +1,5 @@
+# Water Supply System
+Automatic water pump control with ultrasonic sensor
+- Monitors water level in tank
+- Automatic pump ON/OFF
+- SMS notification when tank empty
