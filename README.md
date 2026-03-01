@@ -13,7 +13,7 @@ The Smart Building Management System combines several building subsystems into o
 - Automation  
 - Security  
 - Safety  
-- Energy efficiency  
+- Energy Efficiency  
 
 The system is organized into three main categories:
 
@@ -39,7 +39,7 @@ The system is organized into three main categories:
 The system architecture consists of:
 
 - **Arduino Mega 2560** → Main microcontroller  
-- **ESP8266** → WiFi communication interface  
+- **ESP8266** → WiFi communication module  
 - Environmental Sensors (DHT, MQ Gas, Ultrasonic, etc.)  
 - Actuators (Relays, LEDs, Buzzer, LCD Display)
 
@@ -49,7 +49,7 @@ Sensors → Arduino Mega → ESP8266 → Web Interface
 
 Web Commands → ESP8266 → Arduino Mega → Actuators  
 
-This structure ensures real-time data acquisition and remote control capability.
+This structure ensures real-time monitoring and remote control capability.
 
 ---
 
@@ -104,13 +104,38 @@ This structure ensures real-time data acquisition and remote control capability.
 
 ---
 
+## 🧩 Engineering Concepts Applied
+
+- Embedded Systems Design  
+- Serial Communication (Arduino ↔ ESP8266)  
+- Sensor Data Acquisition & Processing  
+- Real-Time Monitoring  
+- Control Logic Implementation  
+- IoT-Based Remote Communication  
+- Safety & Security System Integration  
+
+---
+
+## 🔄 Communication Strategy
+
+The system uses serial communication between Arduino Mega 2560 and ESP8266.
+
+- Arduino collects sensor data.  
+- Data is transmitted to ESP8266 via Serial communication.  
+- ESP8266 manages WiFi connectivity and updates the web interface.  
+- Web commands are sent back to Arduino to control actuators.  
+
+This communication structure ensures reliable and efficient real-time system performance.
+
+---
+
 ## 🔮 Future Improvements
 
 - Mobile application integration  
 - Cloud-based data logging  
 - Enhanced communication security  
-- Database storage for historical data  
-- Scalable design for larger buildings  
+- Database storage for historical monitoring data  
+- Scalable architecture for larger buildings  
 
 ---
 
