@@ -1,84 +1,121 @@
 # 🏢 Smart Building Management System
 
-An IoT-based Smart Building Automation System designed using **Arduino Mega** and **ESP8266**.
+An IoT-based Smart Building Automation System developed using **Arduino Mega 2560** and **ESP8266 WiFi Module**.
 
-The system allows monitoring and controlling multiple building subsystems remotely via a web interface.
+This project integrates multiple intelligent subsystems into one centralized automation platform that enables real-time monitoring and remote control via a web interface.
 
 ---
 
 ## 📌 Project Overview
 
-This project integrates multiple smart subsystems into one unified automation platform:
+The Smart Building Management System combines several building subsystems into one unified architecture to improve:
 
-- 💡 Lighting Control System
-- 💧 Water Level Monitoring
-- 🌡️ Temperature & Humidity Control
-- 🚪 Door & Wall Security Monitoring
-- 🔥 Gas Leakage Detection
-- 🚗 Smart Parking System
+- Automation  
+- Security  
+- Safety  
+- Energy efficiency  
 
-The system is designed to improve automation, safety, and energy efficiency.
+The system is organized into three main categories:
+
+### 🏗 Services System
+- 💡 Lighting Control System  
+- 💧 Water Level Monitoring  
+- 🌡 Temperature & Humidity Control  
+- 🎛 Control Devices System  
+- 🎵 Entertainment Room System  
+
+### 🔐 Security System
+- 🚪 Smart Door Monitoring  
+- 🧱 Wall Intrusion Detection  
+
+### 🚨 Safety System
+- 🔥 Gas Leakage Detection  
+- 🚗 Smart Parking Monitoring  
 
 ---
 
 ## 🧠 System Architecture
 
-The system consists of:
+The system architecture consists of:
 
-- **Arduino Mega** → Main controller
-- **ESP8266** → WiFi communication module
-- Sensors (Gas, Ultrasonic, DHT, etc.)
-- Actuators (Relays, LEDs, Buzzer)
+- **Arduino Mega 2560** → Main microcontroller  
+- **ESP8266** → WiFi communication interface  
+- Environmental Sensors (DHT, MQ Gas, Ultrasonic, etc.)  
+- Actuators (Relays, LEDs, Buzzer, LCD Display)
 
-Data flow:
+### 🔄 Data Flow
 
 Sensors → Arduino Mega → ESP8266 → Web Interface  
-Web Commands → ESP8266 → Arduino → Actuators
+
+Web Commands → ESP8266 → Arduino Mega → Actuators  
+
+This structure ensures real-time data acquisition and remote control capability.
+
+---
+
+## 📷 System Images
+
+### 🏗 System Overview
+![System Overview](system-overview.jpg)
+
+### 🔌 Circuit Diagram
+![Circuit Diagram](circuit-diagram.jpg)
+
+### 🌐 Web Interface
+![Web Interface](web-interface.jpg)
+
+### 🌍 System Environment
+![System Environment](system-environment.jpg)
 
 ---
 
 ## ⚙️ Technologies Used
 
-- C / C++
-- Arduino IDE
-- ESP8266 WiFi Module
-- Embedded Systems Programming
+- C / C++  
+- Arduino IDE  
+- Embedded Systems Programming  
+- ESP8266 WiFi Communication  
+- Basic Web Interface Integration  
 
 ---
 
 ## 🔌 Hardware Components
 
-- Arduino Mega 2560
-- ESP8266
-- DHT11 / DHT22
-- MQ Gas Sensor
-- Ultrasonic Sensor
-- Relay Module
-- LCD Display
-- Buzzer
+- Arduino Mega 2560  
+- ESP8266 WiFi Module  
+- DHT11 / DHT22 Temperature & Humidity Sensor  
+- MQ Gas Sensor  
+- Ultrasonic Sensor  
+- Relay Module  
+- LCD Display  
+- Buzzer  
+- Supporting electronic components  
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- Remote monitoring via WiFi
-- Real-time sensor data
-- Gas leakage alarm system
-- Automated lighting and environment control
-- Integrated multi-subsystem architecture
+- Real-time environmental monitoring  
+- Remote control via WiFi  
+- Integrated multi-subsystem architecture  
+- Gas leakage alarm with buzzer alert  
+- Automated lighting and environmental control  
+- Parking detection using ultrasonic sensing  
 
 ---
 
-## 📷 Future Improvements
+## 🔮 Future Improvements
 
-- Mobile application integration
-- Database logging
-- Advanced security encryption
-- Cloud connectivity
+- Mobile application integration  
+- Cloud-based data logging  
+- Enhanced communication security  
+- Database storage for historical data  
+- Scalable design for larger buildings  
 
 ---
 
 ## 👩‍💻 Author
 
-Aisha Alnawar  
-Electrical Engineering – Computer & Control Systems
+**Aisha Alnawar**  
+Electrical Engineering – Computer & Control Systems  
+Embedded & IoT Developer
