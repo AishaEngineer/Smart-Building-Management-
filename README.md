@@ -1,14 +1,14 @@
 # 🏢 Smart Building Management System
 
-An IoT-based Smart Building Automation System developed using **Arduino Mega 2560** and **ESP8266 WiFi Module**.
+An advanced IoT-based Smart Building Automation System developed using **Arduino Mega 2560**, **ESP8266 WiFi Module**, and **GSM Communication Module**.
 
-This project integrates multiple intelligent subsystems into one centralized automation platform that enables real-time monitoring and remote control via a web interface.
+The system integrates multiple intelligent building subsystems into one centralized architecture that enables real-time monitoring, remote control, and emergency alert notifications.
 
 ---
 
 ## 📌 Project Overview
 
-The Smart Building Management System combines several building subsystems into one unified architecture to improve:
+The Smart Building Management System improves:
 
 - Automation  
 - Security  
@@ -17,39 +17,76 @@ The Smart Building Management System combines several building subsystems into o
 
 The system is organized into three main categories:
 
-### 🏗 Services System
+---
+
+## 🏗 Services System
+
 - 💡 Lighting Control System  
 - 💧 Water Level Monitoring  
-- 🌡 Temperature & Humidity Control  
-- 🎛 Control Devices System  
+- 🌡 Temperature & Humidity Monitoring  
+- 🎛 Electrical Devices Control  
 - 🎵 Entertainment Room System  
 
-### 🔐 Security System
+---
+
+## 🔐 Security System
+
 - 🚪 Smart Door Monitoring  
 - 🧱 Wall Intrusion Detection  
 
-### 🚨 Safety System
+---
+
+## 🚨 Safety System
+
 - 🔥 Gas Leakage Detection  
 - 🚗 Smart Parking Monitoring  
+- 📩 GSM Emergency Alert System  
 
 ---
 
 ## 🧠 System Architecture
 
-The system architecture consists of:
+The system consists of:
 
 - **Arduino Mega 2560** → Main microcontroller  
 - **ESP8266** → WiFi communication module  
+- **GSM Module** → SMS alert communication  
 - Environmental Sensors (DHT, MQ Gas, Ultrasonic, etc.)  
 - Actuators (Relays, LEDs, Buzzer, LCD Display)
 
-### 🔄 Data Flow
+---
+
+## 🔄 System Communication & Data Flow
+
+### 🌐 IoT Communication Flow
 
 Sensors → Arduino Mega → ESP8266 → Web Interface  
 
 Web Commands → ESP8266 → Arduino Mega → Actuators  
 
-This structure ensures real-time monitoring and remote control capability.
+### 📩 GSM Emergency Flow
+
+Gas Detection → Arduino Mega → GSM Module → SMS Alert to User  
+
+---
+
+## 🧪 System Operation Example
+
+### 🔥 Gas Leakage Scenario
+
+1. MQ Gas Sensor detects abnormal gas concentration.  
+2. Arduino processes sensor data.  
+3. Buzzer is activated immediately.  
+4. GSM module sends SMS alert to the user.  
+5. System status updates on the web interface.  
+
+### 💡 Remote Light Control Scenario
+
+1. User presses ON button from web interface.  
+2. ESP8266 receives HTTP request.  
+3. Command is sent via Serial to Arduino Mega.  
+4. Arduino activates the relay.  
+5. Light turns ON and system updates online.  
 
 ---
 
@@ -73,9 +110,9 @@ This structure ensures real-time monitoring and remote control capability.
 
 - C / C++  
 - Arduino IDE  
-- Embedded Systems Programming  
 - ESP8266 WiFi Communication  
-- Basic Web Interface Integration  
+- GSM Serial Communication  
+- Embedded Systems Programming  
 
 ---
 
@@ -83,59 +120,23 @@ This structure ensures real-time monitoring and remote control capability.
 
 - Arduino Mega 2560  
 - ESP8266 WiFi Module  
-- DHT11 / DHT22 Temperature & Humidity Sensor  
+- GSM Module  
+- DHT11 / DHT22  
 - MQ Gas Sensor  
 - Ultrasonic Sensor  
 - Relay Module  
 - LCD Display  
 - Buzzer  
-- Supporting electronic components  
 
 ---
 
 ## 🚀 Key Features
 
-- Real-time environmental monitoring  
+- Real-time monitoring  
 - Remote control via WiFi  
-- Integrated multi-subsystem architecture  
-- Gas leakage alarm with buzzer alert  
-- Automated lighting and environmental control  
-- Parking detection using ultrasonic sensing  
-
----
-
-## 🧩 Engineering Concepts Applied
-
-- Embedded Systems Design  
-- Serial Communication (Arduino ↔ ESP8266)  
-- Sensor Data Acquisition & Processing  
-- Real-Time Monitoring  
-- Control Logic Implementation  
-- IoT-Based Remote Communication  
-- Safety & Security System Integration  
-
----
-
-## 🔄 Communication Strategy
-
-The system uses serial communication between Arduino Mega 2560 and ESP8266.
-
-- Arduino collects sensor data.  
-- Data is transmitted to ESP8266 via Serial communication.  
-- ESP8266 manages WiFi connectivity and updates the web interface.  
-- Web commands are sent back to Arduino to control actuators.  
-
-This communication structure ensures reliable and efficient real-time system performance.
-
----
-
-## 🔮 Future Improvements
-
-- Mobile application integration  
-- Cloud-based data logging  
-- Enhanced communication security  
-- Database storage for historical monitoring data  
-- Scalable architecture for larger buildings  
+- GSM emergency alerts  
+- Multi-subsystem integration  
+- Smart parking detection  
 
 ---
 
@@ -143,4 +144,4 @@ This communication structure ensures reliable and efficient real-time system per
 
 **Aisha Alnawar**  
 Electrical Engineering – Computer & Control Systems  
-Embedded & IoT Developer
+Embedded Systems & IoT Developer
