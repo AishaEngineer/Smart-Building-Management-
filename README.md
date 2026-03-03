@@ -92,16 +92,16 @@ Gas Detection → Arduino Mega → GSM Module → SMS Alert to User
 
 ## System Images
 ### 🏗 System Overview
-![System Overview](images/system_overview.png)
+![System Overview](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/system_overview.png)
 
 ### 🔌 Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/circuit_diagram.png)
 
 ### 🌐 Web Interface
-![Web Interface](images/web_interface.png)
+![Web Interface](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/web_interface.png)
 
 ### 🌍 System Environment
-![System Environment](images/system_environment.png)
+![System Environment](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/system_environment.png)
 
 ---
 
