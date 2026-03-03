@@ -90,8 +90,7 @@ Gas Detection → Arduino Mega → GSM Module → SMS Alert to User
 
 ---
 
-## 📷 System Images
-
+## System Images
 ### 🏗 System Overview
 ![System Overview](images/system_overview.png)
 
