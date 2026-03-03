@@ -93,16 +93,16 @@ Gas Detection → Arduino Mega → GSM Module → SMS Alert to User
 ## System Images
 
 ### 🏗 System Overview
-![System Overview](images/system-overview.jpg)
+![System Overview](system-overview.jpg)
 
 ### 🔌 Circuit Diagram
-![Circuit Diagram](images/circuit-diagram.jpg)
+![Circuit Diagram](circuit-diagram.jpg)
 
 ### 🌐 Web Interface
-![Web Interface](images/web-interface.jpg)
+![Web Interface](web-interface.jpg)
 
 ### 🌍 System Environment
-![System Environment](images/system-environment.jpg)
+![System Environment](system-environment.jpg)
 
 ---
 
