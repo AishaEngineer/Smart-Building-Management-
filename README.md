@@ -91,17 +91,18 @@ Gas Detection → Arduino Mega → GSM Module → SMS Alert to User
 ---
 
 ## System Images
+
 ### 🏗 System Overview
-![System Overview](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/system_overview.png)
+![System Overview](images/system-overview.jpg)
 
 ### 🔌 Circuit Diagram
-![Circuit Diagram](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/circuit_diagram.png)
+![Circuit Diagram](images/circuit-diagram.jpg)
 
 ### 🌐 Web Interface
-![Web Interface](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/web_interface.png)
+![Web Interface](images/web-interface.jpg)
 
 ### 🌍 System Environment
-![System Environment](https://raw.githubusercontent.com/AishaEngineer/Smart-Building-Management-/main/images/system_environment.png)
+![System Environment](images/system-environment.jpg)
 
 ---
 
@@ -125,11 +126,7 @@ Gas Detection → Arduino Mega → GSM Module → SMS Alert to User
 - Ultrasonic Sensor
 - Relay Module
 - LCD Display
-- Buzzer
-
----
-
-## 🚀 Key Features
+  # 🚀 Key Features
 
 - Real-time monitoring
 - Remote control via WiFi
